@@ -11,7 +11,7 @@ redirect_from:
 
 Yangyang Li
 ======
-Thailand · liyangyangnb@gmail.com · (+86)18551758121 · [github.com/yangyanglinb](https://github.com/yangyanglinb)
+Thailand · liyangyangnb@gmail.com · (+86)18551758121 · github.com/yangyanglinb](https://github.com/yangyanglinb)
 
 ---
 
@@ -19,21 +19,21 @@ Research Interests
 ======
 My research interests focus on deep learning and representation learning models, 
 combining Graph Neural Networks (GNNs) and Self-Supervised Learning for visual 
-and temporal data understanding. :contentReference[oaicite:0]{index=0}
+and temporal data understanding. 
 
 Education
 ======
 * Aug 2023 – Feb 2026 · Faculty of Engineering and Technology,  
   Panyapiwat Institute of Management, Thailand  
-  *Full scholarship* :contentReference[oaicite:1]{index=1}  
+  *Full scholarship* 
 
 * Sep 2021 – Jun 2023 · Faculty of Computer Science and Technology,  
-  Nanjing Tech University Pujiang Institute, China :contentReference[oaicite:2]{index=2}  
+  Nanjing Tech University Pujiang Institute, China 
 
 Research Experience
 ======
 * **Graph-aware Time–Frequency Contrastive Learning Framework (contrastive-twfreq)**  
-  *Aug 2025 – present* :contentReference[oaicite:3]{index=3}  
+  *Aug 2025 – present*
   * Proposed an innovative time–frequency contrastive learning mechanism, combining 
     frequency-sliced dynamic adjacency with time-weighted InfoNCE loss for 
     structure-aware temporal representation learning.  
@@ -45,7 +45,7 @@ Research Experience
     datasets such as METR-LA and PEMS-BAY.  
 
 * **A Novel ARM-DC AutoConNet for Accurate Long-Term Time-Series Forecasting**  
-  *Sep 2024 – Aug 2025* :contentReference[oaicite:4]{index=4}  
+  *Sep 2024 – Aug 2025* 
   * Proposed the ARM-DC AutoConNet architecture with Adaptive Rescaling Mechanism (ARM) 
     and Multi-scale Dilated Convolution (DC).  
   * Introduced Layer Normalization and Residual Connections to maintain stable 
@@ -56,7 +56,7 @@ Research Experience
     obtaining up to ~95% MSE reduction and ~77% MAE reduction.  
 
 * **Using YOLOv3 for Vehicle Tracking in DonkeyCar**  
-  *Sep 2023 – Jul 2025* :contentReference[oaicite:5]{index=5}  
+  *Sep 2023 – Jul 2025*
   * Proposed a dual-vehicle cooperative autonomous driving method that fuses YOLOv3 
     visual detection with control algorithms to realize front-vehicle tracking and 
     obstacle avoidance in the DonkeyCar simulation environment.  
@@ -67,12 +67,12 @@ Research Experience
 Work Experience
 ======
 * **University Teacher**  
-  *Oct 2025 – present* :contentReference[oaicite:6]{index=6}  
+  *Oct 2025 – present* 
   * Teaching computer fundamentals and professional courses, including web front-end 
     development and Windows services.  
 
 * **E-commerce Operations**  
-  *Mar 2023 – Jul 2023* :contentReference[oaicite:7]{index=7}  
+  *Mar 2023 – Jul 2023* 
   * Responsible for daily operations and management of e-commerce stores.  
 
 Skills
