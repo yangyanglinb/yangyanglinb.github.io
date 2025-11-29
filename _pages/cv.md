@@ -9,55 +9,105 @@ redirect_from:
 
 {% include base_path %}
 
+Yangyang Li
+======
+Thailand · liyangyangnb@gmail.com · (+86)18551758121 · [github.com/yangyanglinb](https://github.com/yangyanglinb)
+
+---
+
+Research Interests
+======
+My research interests focus on deep learning and representation learning models, 
+combining Graph Neural Networks (GNNs) and Self-Supervised Learning for visual 
+and temporal data understanding. :contentReference[oaicite:0]{index=0}
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Aug 2023 – Feb 2026 · Faculty of Engineering and Technology,  
+  Panyapiwat Institute of Management, Thailand  
+  *Full scholarship* :contentReference[oaicite:1]{index=1}  
 
-Work experience
+* Sep 2021 – Jun 2023 · Faculty of Computer Science and Technology,  
+  Nanjing Tech University Pujiang Institute, China :contentReference[oaicite:2]{index=2}  
+
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Graph-aware Time–Frequency Contrastive Learning Framework (contrastive-twfreq)**  
+  *Aug 2025 – present* :contentReference[oaicite:3]{index=3}  
+  * Proposed an innovative time–frequency contrastive learning mechanism, combining 
+    frequency-sliced dynamic adjacency with time-weighted InfoNCE loss for 
+    structure-aware temporal representation learning.  
+  * Performed graph-structure fusion of time–frequency features: used Graph Neural 
+    Networks (GNNs) to capture inter-variate dependencies and to model multi-scale 
+    time-series features in the frequency domain.  
+  * Built a complete and reproducible framework including self-supervised training, 
+    linear probes, ablation experiments and visualization modules, runnable on 
+    datasets such as METR-LA and PEMS-BAY.  
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **A Novel ARM-DC AutoConNet for Accurate Long-Term Time-Series Forecasting**  
+  *Sep 2024 – Aug 2025* :contentReference[oaicite:4]{index=4}  
+  * Proposed the ARM-DC AutoConNet architecture with Adaptive Rescaling Mechanism (ARM) 
+    and Multi-scale Dilated Convolution (DC).  
+  * Introduced Layer Normalization and Residual Connections to maintain stable 
+    convergence for long-sequence prediction.  
+  * Designed a multi-index composite loss function.  
+  * Achieved significant performance gains with a lightweight design.  
+  * Evaluated on 16 public datasets (e.g., M4, M5, ETTh1, ETTm1, Traffic, etc.), 
+    obtaining up to ~95% MSE reduction and ~77% MAE reduction.  
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* **Using YOLOv3 for Vehicle Tracking in DonkeyCar**  
+  *Sep 2023 – Jul 2025* :contentReference[oaicite:5]{index=5}  
+  * Proposed a dual-vehicle cooperative autonomous driving method that fuses YOLOv3 
+    visual detection with control algorithms to realize front-vehicle tracking and 
+    obstacle avoidance in the DonkeyCar simulation environment.  
+  * Demonstrated the reliability of multi-vehicle collaboration using only cameras, 
+    maintaining stable tracking even under sensor failure or occlusion, thereby 
+    verifying YOLOv3’s detection and control performance in dynamic multi-vehicle scenarios.  
+
+Work Experience
+======
+* **University Teacher**  
+  *Oct 2025 – present* :contentReference[oaicite:6]{index=6}  
+  * Teaching computer fundamentals and professional courses, including web front-end 
+    development and Windows services.  
+
+* **E-commerce Operations**  
+  *Mar 2023 – Jul 2023* :contentReference[oaicite:7]{index=7}  
+  * Responsible for daily operations and management of e-commerce stores.  
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep Learning · Representation Learning · Self-Supervised Learning  
+* Graph Neural Networks (GNNs) for time-series and visual data  
+* (You can继续在这里补充：Python / PyTorch / TensorFlow / Linux / Git / etc.)
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+<ul>
+  {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}
+</ul>
+
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
+<ul>
+  {% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+  {% endfor %}
+</ul>
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
+<ul>
+  {% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
+</ul>
+
+Service and Leadership
+======
+* (Add any academic service, student supervision, competition coaching, etc. here.)
   
 Service and leadership
 ======
