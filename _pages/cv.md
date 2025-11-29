@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -76,40 +76,4 @@ Work Experience
   *Mar 2023 – Jul 2023* 
   * Responsible for daily operations and management of e-commerce stores.  
 
-Skills
-======
-* Deep Learning · Representation Learning · Self-Supervised Learning  
-* Graph Neural Networks (GNNs) for time-series and visual data  
-* (You can继续在这里补充：Python / PyTorch / TensorFlow / Linux / Git / etc.)
 
-Publications
-======
-<ul>
-  {% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
-
-Talks
-======
-<ul>
-  {% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}
-</ul>
-
-Teaching
-======
-<ul>
-  {% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
-
-Service and Leadership
-======
-* (Add any academic service, student supervision, competition coaching, etc. here.)
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
