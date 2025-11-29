@@ -5,6 +5,7 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+classes: "cv-center-title"
 ---
 
 {% include base_path %}
