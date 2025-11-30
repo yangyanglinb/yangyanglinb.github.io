@@ -203,9 +203,10 @@
   }
 
   .visible-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: table;
+    margin: 0 auto; 
+   }
+  
      
 
     li {
