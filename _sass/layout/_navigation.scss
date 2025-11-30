@@ -188,6 +188,36 @@
       color: var(--global-masthead-link-color-hover);
     }
   }
+   /* Simple centered navigation (替代 greedy-nav，用于居中菜单) */
+.simple-nav {
+  position: relative;
+  min-width: 250px;
+  background: var(--global-bg-color);
+
+  .visible-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;   /* 整排菜单水平居中 */
+    align-items: center;
+    gap: 2rem;                 /* 菜单之间的间距，可以自己调 */
+  }
+
+  .masthead__menu-item a {
+    display: block;
+    padding: 0.5rem 0;
+    margin: 0;
+    color: var(--global-masthead-link-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-masthead-link-color-hover);
+       }
+     }
+   }
+
 
   button {
     position: absolute;
