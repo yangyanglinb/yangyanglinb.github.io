@@ -509,7 +509,7 @@
   color: #4c4c4c;
 
   &:hover {
-    color: #000000;
+    color: var(--global-masthead-link-color-hover);
   }
 }
 
