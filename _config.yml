@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Yangyang Li"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Yangyang Li"
 description              : &description "Yangyang Li's academic and research portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "M.Eng student in AI, focusing on time-series forecasting, graph-based SSL, and autonomous driving."
   location         : "China"
-  employer         : "Red Brick University"
+  employer         : "Panyapiwat Institute of Management"
   uri              : # URL
   email            : "liyangyangnb@gmail.com" 
 
