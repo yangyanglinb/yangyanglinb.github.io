@@ -23,7 +23,7 @@ repository               : "yangyanglinb/yangyanglinb.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yangyang Li"
   pronouns         : # example: "she/her"  
   bio              : "M.Eng student in AI, focusing on time-series forecasting, graph-based SSL, and autonomous driving."
