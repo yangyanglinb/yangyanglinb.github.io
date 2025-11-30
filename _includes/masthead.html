@@ -5,22 +5,18 @@
     <nav id="site-nav" class="simple-nav">
       <ul class="simple-nav__list">
         {% for link in site.data.navigation.main %}
-          {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-          {% else %}
+          {% assign domain = '' %}
+          {% unless link.url contains 'http' %}
             {% assign domain = base_path %}
-          {% endif %}
+          {% endunless %}
           <li class="simple-nav__item">
             <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
           </li>
         {% endfor %}
-        <!-- 右边的小齿轮（主题切换按钮），保留原来的 id，方便脚本继续工作 -->
+
         <li id="theme-toggle" class="simple-nav__item simple-nav__item--icon">
           <a role="button" aria-labelledby="theme-icon">
-            <i id="theme-icon"
-               class="fa-solid fa-sun"
-               aria-hidden="true"
-               title="toggle theme"></i>
+            <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
           </a>
         </li>
       </ul>
