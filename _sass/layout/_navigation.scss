@@ -476,3 +476,47 @@
     }
   }
 }
+/* Simple centered top navigation (used by masthead.html) */
+.simple-nav {
+  background: var(--global-bg-color);
+}
+
+/* 菜单一排居中显示 */
+.simple-nav__list {
+  margin: 0;
+  padding: 0.5rem 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;   /* 整排居中 */
+  align-items: center;
+  gap: 2rem;                 /* 菜单之间的间距，可以自己调 */
+}
+
+/* 去掉默认列表样式 */
+.simple-nav__item {
+  list-style: none;
+}
+
+/* 链接样式 */
+.simple-nav__item a {
+  display: block;
+  margin: 0;
+  padding: 0.25rem 0;
+  font-family: $sans-serif;
+  color: var(--global-masthead-link-color);
+  text-decoration: none;
+  color: #4c4c4c;
+
+  &:hover {
+    color: #000000;
+  }
+}
+
+/* 小齿轮按钮居中 */
+.simple-nav__item--icon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
