@@ -494,18 +494,20 @@
   list-style: none;
 }
 
-/* 链接样式 */
-.simple-nav__item a {
+/* 链接样式：颜色跟主题变量走（白天深色，夜间浅色） */
+.simple-nav__item a,
+.simple-nav__item a:visited {
   display: block;
   margin: 0;
   padding: 0.25rem 0;
   font-family: $sans-serif;
-  color: var(--global-masthead-link-color);
   text-decoration: none;
 
-  &:hover {
-    color: var(--global-masthead-link-color-hover);
-  }
+  color: var(--global-masthead-link-color);
+}
+
+.simple-nav__item a:hover {
+  color: var(--global-masthead-link-color-hover);
 }
 
 /* 小齿轮按钮居中 */
