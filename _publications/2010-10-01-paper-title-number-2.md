@@ -2,11 +2,11 @@
 title: "A Novel ARM-DC AutoConNet for Accurate Long‐Term Time‐Series Forecasting"
 collection: publications
 category: manuscripts
-permalink: /files/paper.pdf
+permalink: /publication/2025-arm-dc-autoconnet
 excerpt: 'An improved dilated convolutional AutoConNet with adaptive rescaling mechanism (ARM) for accurate long-term time-series forecasting.'
 date: 2025-08-05
 venue: 'International Journal of Basic and Applied Sciences, 14(4), 98–104'
-paperurl: 'https://yangyanglinb.github.io/files/paper.pdf'
+paperurl: '/files/paper.pdf'
 citation: 'Yangyang Li, Jian Qu. (2025). "A Novel ARM-DC AutoConNet for Accurate Long‐Term Time-Series Forecasting." *International Journal of Basic and Applied Sciences*, 14(4), 98–104. https://doi.org/10.14419/tme8bx54'
 ---
 
