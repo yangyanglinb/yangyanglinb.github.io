@@ -1,5 +1,5 @@
 ---
-title: "A NovelARM-DC AutoConNet for Accurate Long‐Term Time‐Series Forecasting"
+title: "A Novel ARM-DC AutoConNet for Accurate Long‐Term Time‐Series Forecasting"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
