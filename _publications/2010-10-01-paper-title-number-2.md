@@ -2,7 +2,7 @@
 title: "A Novel ARM-DC AutoConNet for Accurate Long‐Term Time‐Series Forecasting"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /files/paper.pdf
 excerpt: 'An improved dilated convolutional AutoConNet with adaptive rescaling mechanism (ARM) for accurate long-term time-series forecasting.'
 date: 2025-08-05
 venue: 'International Journal of Basic and Applied Sciences, 14(4), 98–104'
