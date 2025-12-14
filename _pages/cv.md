@@ -10,9 +10,18 @@ classes: "cv-center-title"
 
 {% include base_path %}
 
+<a class="btn btn--primary" href="{{ '/files/Yangyang_Li_CV.pdf' | relative_url }}" download>
+  Download CV (PDF)
+</a>
+<a class="btn" href="{{ '/files/Yangyang_Li_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
+  View CV
+</a>
+
+<br/><br/>
+
 Yangyang Li
 ======
-Thailand  |  liyangyangnb@gmail.com  |  (+86)18551758121 |  github.com/yangyanglinb(https://github.com/yangyanglinb)
+Thailand  |  liyangyangnb@gmail.com  |  (+86)18551758121 |  github.com/yangyanglinb (https://github.com/yangyanglinb)
 
 ---
 
@@ -34,7 +43,7 @@ Education
 Research Experience
 ======
 * **Graph-aware Time–Frequency Contrastive Learning Framework (contrastive-twfreq)**  
-  *Aug 2025 – present*
+  *Aug 2025 – present*  
   * Proposed an innovative time–frequency contrastive learning mechanism, combining 
     frequency-sliced dynamic adjacency with time-weighted InfoNCE loss for 
     structure-aware temporal representation learning.  
@@ -46,7 +55,7 @@ Research Experience
     datasets such as METR-LA and PEMS-BAY.  
 
 * **A Novel ARM-DC AutoConNet for Accurate Long-Term Time-Series Forecasting**  
-  *Sep 2024 – Aug 2025* 
+  *Sep 2024 – Aug 2025*  
   * Proposed the ARM-DC AutoConNet architecture with Adaptive Rescaling Mechanism (ARM) 
     and Multi-scale Dilated Convolution (DC).  
   * Introduced Layer Normalization and Residual Connections to maintain stable 
@@ -57,7 +66,7 @@ Research Experience
     obtaining up to ~95% MSE reduction and ~77% MAE reduction.  
 
 * **Using YOLOv3 for Vehicle Tracking in DonkeyCar**  
-  *Sep 2023 – Jul 2025*
+  *Sep 2023 – Jul 2025*  
   * Proposed a dual-vehicle cooperative autonomous driving method that fuses YOLOv3 
     visual detection with control algorithms to realize front-vehicle tracking and 
     obstacle avoidance in the DonkeyCar simulation environment.  
@@ -68,12 +77,10 @@ Research Experience
 Work Experience
 ======
 * **University Teacher**  
-  *Oct 2025 – present* 
+  *Oct 2025 – present*  
   * Teaching computer fundamentals and professional courses, including web front-end 
     development and Windows services.  
 
 * **E-commerce Operations**  
-  *Mar 2023 – Jul 2023* 
+  *Mar 2023 – Jul 2023*  
   * Responsible for daily operations and management of e-commerce stores.  
-
-
