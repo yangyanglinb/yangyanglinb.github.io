@@ -10,7 +10,7 @@ classes: "cv-center-title"
 
 {% include base_path %}
 
-<a href="{{ '/files/Yangyang_Li_CV.pdf' | relative_url }}"
+<a href="{{ '/files/Yangyang Li_CV.pdf' | relative_url }}"
    style="display:inline-block;
           margin-bottom:10px;
           padding:6px 14px;
@@ -23,8 +23,7 @@ classes: "cv-center-title"
 
 Yangyang Li
 ======
-Thailand  |  liyangyangnb@gmail.com  |  (+86)18551758121 |  
-[GitHub](https://github.com/yangyanglinb)
+Thailand  |  liyangyangnb@gmail.com  |  (+86)18551758121 |  [GitHub](https://github.com/yangyanglinb)
 
 ---
 
