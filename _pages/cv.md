@@ -23,7 +23,7 @@ classes: "cv-center-title"
 
 Yangyang Li
 ======
-Thailand  |  liyangyangnb@gmail.com  |  (+86)18551758121 |  [GitHub](https://github.com/yangyanglinb)
+China  |  liyangyangnb@gmail.com  |  (+86)18551758121 |  [GitHub](https://github.com/yangyanglinb)
 
 ---
 
